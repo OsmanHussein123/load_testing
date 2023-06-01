@@ -10,5 +10,5 @@ export const options = {
 };
 
 export default function () {
-  http.get('http://20.238.148.73/api/authentication/users');
+  http.get('http://192.168.240.3:8081/api/authentication/users');
 }
